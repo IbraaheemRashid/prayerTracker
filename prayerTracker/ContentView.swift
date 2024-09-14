@@ -1,24 +1,28 @@
-//
-//  ContentView.swift
-//  prayerTracker
-//
-//  Created by Ibraaheem Rashid on 14/09/2024.
-//
-
 import SwiftUI
 
 struct ContentView: View {
     var body: some View {
-        VStack {
-            Image(systemName: "globe")
-                .imageScale(.large)
-                .foregroundStyle(.tint)
-            Text("PrayerTracker")
+        TabView {
+            HomeView()
+                .tabItem {
+                    Label("Home", systemImage: "house")
+                }
+            
+            PrayerTrackingView()
+                .tabItem {
+                    Label("Prayers", systemImage: "list.bullet")
+                }
+            
+            TimetableView()
+                .tabItem {
+                    Label("Timetable", systemImage: "calendar")
+                }
         }
-        .padding()
     }
 }
 
-#Preview {
-    ContentView()
+struct ContentView_Previews: PreviewProvider {
+    static var previews: some View {
+        ContentView()
+    }
 }

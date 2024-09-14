@@ -14,6 +14,9 @@
 		C43C00732C95DD9A008DB095 /* prayerTrackerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C43C00722C95DD9A008DB095 /* prayerTrackerTests.swift */; };
 		C43C007D2C95DD9A008DB095 /* prayerTrackerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C43C007C2C95DD9A008DB095 /* prayerTrackerUITests.swift */; };
 		C43C007F2C95DD9A008DB095 /* prayerTrackerUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C43C007E2C95DD9A008DB095 /* prayerTrackerUITestsLaunchTests.swift */; };
+		C43C008C2C95E5D4008DB095 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C43C008B2C95E5D4008DB095 /* HomeView.swift */; };
+		C43C008E2C95E614008DB095 /* PrayerTrackingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C43C008D2C95E614008DB095 /* PrayerTrackingView.swift */; };
+		C43C00902C95E652008DB095 /* TimetableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C43C008F2C95E652008DB095 /* TimetableView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +47,9 @@
 		C43C00782C95DD9A008DB095 /* prayerTrackerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = prayerTrackerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		C43C007C2C95DD9A008DB095 /* prayerTrackerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = prayerTrackerUITests.swift; sourceTree = "<group>"; };
 		C43C007E2C95DD9A008DB095 /* prayerTrackerUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = prayerTrackerUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		C43C008B2C95E5D4008DB095 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		C43C008D2C95E614008DB095 /* PrayerTrackingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PrayerTrackingView.swift; sourceTree = "<group>"; };
+		C43C008F2C95E652008DB095 /* TimetableView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimetableView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -96,6 +102,9 @@
 			children = (
 				C43C00612C95DD98008DB095 /* prayerTrackerApp.swift */,
 				C43C00632C95DD98008DB095 /* ContentView.swift */,
+				C43C008B2C95E5D4008DB095 /* HomeView.swift */,
+				C43C008D2C95E614008DB095 /* PrayerTrackingView.swift */,
+				C43C008F2C95E652008DB095 /* TimetableView.swift */,
 				C43C00652C95DD9A008DB095 /* Assets.xcassets */,
 				C43C00672C95DD9A008DB095 /* Preview Content */,
 			);
@@ -257,6 +266,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C43C00902C95E652008DB095 /* TimetableView.swift in Sources */,
+				C43C008C2C95E5D4008DB095 /* HomeView.swift in Sources */,
+				C43C008E2C95E614008DB095 /* PrayerTrackingView.swift in Sources */,
 				C43C00642C95DD98008DB095 /* ContentView.swift in Sources */,
 				C43C00622C95DD98008DB095 /* prayerTrackerApp.swift in Sources */,
 			);
